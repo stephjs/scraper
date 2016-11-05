@@ -1,0 +1,74 @@
+body{
+  background-color: #EBE0E0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1 {
+  padding-left: 20px;
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 15px;
+}
+#wrapper{
+  width:1000px;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+#articles{
+  background-color: white;
+  width:60%;
+  height:700px;
+  display:inline-block;
+  overflow: auto;
+  border: 2px black solid;
+  padding: 20px;
+}
+
+#notes{
+  width:35%;
+  float:right;
+}
+textarea, input{
+  font-family: 'Raleway', sans-serif;
+  display:block;
+  width:100%;
+}
+input{
+  height:36px;
+  font-size: 24px;
+}
+textarea{
+  height:200px;
+  font-size: 18px;
+}
+.articlebloc {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.articlebloc:last-child {
+  border-bottom: none;
+  padding: 0px;
+}
+
+#savenote, #deletenote {
+  background-color: black;
+  color: #EBE0E0;
+  border: black 1px solid;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#savenote:hover, #deletenote:hover {
+  background-color: #F0A8A8;
+  color: black;
+}
